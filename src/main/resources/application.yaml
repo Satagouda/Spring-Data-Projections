@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: spring-data-projections
+  datasource:
+    url: jdbc:h2:mem:employees
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
